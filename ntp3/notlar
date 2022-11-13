@@ -1,0 +1,82 @@
+Opertaörler
+  Yapılarına göre;
+    Tekil;
+      () [] ++ _ + _ ! ~ new checked unchecked typeof sizeof
+    İkili;
+      * / % + - < <= > >= as is << >> == != & ^ | && || = *= /= %= += -= <<= >>= &= ^= |=
+    Üçlü;
+      ?:
+
+  İşlevlerine göre;
+    Aritmetik: ++ -- * / + - %
+    Karşılaştırma: < > != == as is
+    Mantıksal: || && !
+    Bitsel: << >> ~(Değil) & | ^(xor)
+    Atama ve işlemli atama: *= %= -= vs
+    Özel amaçlı: ?: (a<b ? min=a: min=b) new, typeof, sizeof, () [] + - * & -> . checked unchecked
+
+  Operatör önceliği sırasıyla;
+    Parantez
+    Üs alma
+    çarpma bölme
+    toplama çıkarma
+
+  Bitsel Operatörler;
+    ~ (NOT);
+      byte b1 = 254;
+      byte b2 = (byte)~b1;
+
+      b1 = 11110000
+      b2 = 00001111
+    
+    & (AND);
+      byte a = 153;
+      byte b = 104;
+      byte x = (byte)(a&b);
+
+      a = 10011001
+      b = 01101000
+      x = 00001000 = 8
+
+    | (OR);
+      byte a = 153;
+      byte b = 104;
+      byte x = (byte)(a|b);
+
+      a = 10011001
+      b = 01101000
+      x = 11111001 = 249
+
+    ^ (XOR);
+      byte a = 153;
+      byte b = 104;
+      byte x = (byte)(a^b);
+
+      a = 10011001
+      b = 01101000
+      x = 11110001 = 241
+
+    << (Sola kaydırma)
+      byte b = 0xFF;
+      byte c = (byte)(b<<4);
+
+      b = 11111111
+      c = 11110000
+
+    >> (Sağa kaydırma)
+      byte b = 0xFF;
+      byte c = (byte)(b>>4);
+
+      b = 11111111
+      c = 00001111
+
+Döngüler: for, switch, while, do while, foreach
+  Jumo deyimleri;
+    break: Döngüden çıkar 
+    continue: Döngünün bir sonraki tekrarına geçer
+    goto: programın etiketlenmiş bir kısmına atlar
+    return: metodu sonlandırır
+
+Random
+  
+

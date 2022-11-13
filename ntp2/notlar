@@ -1,0 +1,23 @@
+Stack: Çalışma zamnında programın yüklendiği RAM bölgesi.
+Heap: Nesnelerin oluşturulduğu bölge, new anahtar sözcüğü ile kullanılır.
+Register: Mikroişlemci üzerinde veri transferine yarayan bölge.
+Static: Bellekteki herhangi bir bölgede saklanır, veri program boyunca saklanır, static anahtar sözcüğü ile kullanılır.
+Sabit: Program içerisinde, değerlerin değişmeden depolandığı bölümdür.
+RAM olmayan bölge: Bellek dışındaki disk alanları.
+
+Scopes (Faaliyet Alanları): Değikenin kullanılabildiği alana verilen ad.
+Sabitler: Değeri değişmeyen veriler, const ile tanımlanır.
+  Tanımlandıklarında değer atanmalıdır
+  Kendinden statictir, anahtar sözcük olarak kullanılmaz.
+
+object: Tüm veri tiplerinin türediği nesne. js'deki gibi kullanılabilir.
+var: ilk atanan değerin türünü alır
+dynamic: js'deki gibi
+
+Tür dönüşümü: (tür)değişken
+Checked: Veri kaybı yaşanabilecek durumlarda hata verir (misal int'i byte'a dönüştürürken)
+
+.ToString(): String'e çevirir
+Convert: ToBooleani ToByte, ToInt32, ToChar ile string nesneleri belirli türlere dönüştürür
+
+

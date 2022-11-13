@@ -1,0 +1,8 @@
+Namespace: Sınıf ve türleri organize etmek için kullanılır.
+.NET Framework'u
+  System.Data: Veritabanı işlemleri
+  System.Xml: Veri biçimlendirme
+  System.Net: HTTP ve ağ protokolleri
+  System.IO: Dosyalar
+  System.Windows.Forms:
+

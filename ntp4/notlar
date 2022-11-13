@@ -1,0 +1,35 @@
+System.Array:
+  IsFixedSize: Eleman sayısı sabit mi
+  IsReadOnly
+  Length
+  Rank: Boyut
+
+  Metotlar:
+    BinarySearch
+    Clear: tüm elemanlar default değere
+    Clone: bit bit kopya
+    Copy: bir bölümünü kopyalar
+    CopyTo: Başka bir diziye kopyalar
+    GetValue: İlgili elemanın değerini verir
+    IndexOf: İlgili elemanın indeksini verir
+    Reverse: Diziyi tersinde çevirir
+    SetValue: İlgili elemana değer atar
+    Sort: Bir boyutlu diziyi sıralar
+    CreateInstance: Yeni dizi nesnesi oluşturur
+    GetLength: i. boyuttaki değer
+    GetUpperBound: i. boyuttaki son indis 
+    Resize: eleman sayısını değiştirir
+
+ArrayList;
+  Büyüyüp küçülebilen ve farklı değişken türleri depolayabilen sınıf.
+
+  Metotlar;
+    Count: toplam eleman sayısı
+    AddRange: 
+    Sort: sıralar
+    ReverseClear
+    BinarySearch
+    CopyTo
+
+Metotlar
+
