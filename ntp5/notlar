@@ -1,0 +1,58 @@
+Math;
+  Metotlar;
+    Abs: mutlak
+    Cos: cos 
+    Sin
+    Tan
+    Ceiling: üst tam sayıya yuvarlar
+    Floor
+    Max: iki paramtereden büyüğü
+    Min
+    Pow
+    Round: en yakın tam sayıya yuvarlar
+    Sqrt: Karekök
+    Log: e tabanında log 
+    Exp: e üzeri x
+    Log10: 10 tabanında log
+
+Sınıflar;
+  Değişkenler ve metotlardan oluşur
+  
+  Erişim belirleyiciler;
+    public
+    private
+    protected
+    internal: bulunduğu dosya
+    protected internal
+
+  this;
+    sınıf içindeki metotun parametresi ile sınıfın değişkenini ayır etmek için sınıfın değişkeninin başına this konur
+
+  Kapsülleme;
+    nesnenin bazı özelliklerini saklamak için private erişim belirleyicisini verip get set kullanırız.
+  
+  Copy Constructors;
+    Kendi sınıfınfan bir nesne alan Constructor'a denir
+
+  Destructor;
+    başına ~ gelir
+
+  Dispose metodu;
+    GC.SuppressFinalize(this);
+    dispose çalışınca destructor çalışmaz
+
+  Statik metotlar
+  Statik değişkenler
+
+  Statik Metotlar;
+    içinde static olmayan metot ve ya özellik tanımlanamaz
+    yapıcısı yıkıcısı olmaz
+    türetme yapılamaz
+
+  const ve readonly elemanlar;
+    const aynı zamanda statictir
+    static readonly ve const'un tek farkı const derlemede static readonly çalışmada ilk değerini alır
+    metotun içince readonly kullanılmaz
+    nesne içinde readonly kullanılacaksa static olmalı
+    readonly ve static sırası önemsiz
+    static de readonly gibi method içinde kullanılamaz
