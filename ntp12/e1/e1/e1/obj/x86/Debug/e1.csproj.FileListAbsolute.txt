@@ -1,0 +1,2 @@
+/home/furkan/Documents/projects/c#/ntp/ntp12/e1/e1/e1/obj/x86/Debug/e1.csproj.AssemblyReference.cache
+/home/furkan/Documents/projects/c#/ntp/ntp12/e1/e1/e1/obj/x86/Debug/e1.csproj.CoreCompileInputs.cache
